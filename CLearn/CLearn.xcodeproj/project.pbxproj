@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7DBC9B2487AC0700BF6EA0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DBC9A2487AC0700BF6EA0 /* main.c */; };
 		D02489CF2403B05C002B30CD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D02489CE2403B05C002B30CD /* main.c */; };
 		D0E4216D247D268700B81B7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E4216C247D268700B81B7C /* main.m */; };
 		D0E42171247D26D500B81B7C /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = D0E42163247D19E300B81B7C /* List.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		4B7DBC962487AC0700BF6EA0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D02489C92403B05C002B30CD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,6 +44,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B7DBC982487AC0700BF6EA0 /* queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = queue; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7DBC9A2487AC0700BF6EA0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; usesTabs = 0; };
 		D02489CB2403B05C002B30CD /* CLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLearn; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02489CE2403B05C002B30CD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		D0E42162247D19E300B81B7C /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
@@ -43,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4B7DBC952487AC0700BF6EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D02489C82403B05C002B30CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,11 +79,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B7DBC992487AC0700BF6EA0 /* queue */ = {
+			isa = PBXGroup;
+			children = (
+				4B7DBC9A2487AC0700BF6EA0 /* main.c */,
+			);
+			path = queue;
+			sourceTree = "<group>";
+		};
 		D02489C22403B05C002B30CD = {
 			isa = PBXGroup;
 			children = (
 				D02489CD2403B05C002B30CD /* CLearn */,
 				D0E4216B247D268600B81B7C /* List */,
+				4B7DBC992487AC0700BF6EA0 /* queue */,
 				D02489CC2403B05C002B30CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +102,7 @@
 			children = (
 				D02489CB2403B05C002B30CD /* CLearn */,
 				D0E4216A247D268600B81B7C /* List */,
+				4B7DBC982487AC0700BF6EA0 /* queue */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +136,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4B7DBC972487AC0700BF6EA0 /* queue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B7DBC9E2487AC0700BF6EA0 /* Build configuration list for PBXNativeTarget "queue" */;
+			buildPhases = (
+				4B7DBC942487AC0700BF6EA0 /* Sources */,
+				4B7DBC952487AC0700BF6EA0 /* Frameworks */,
+				4B7DBC962487AC0700BF6EA0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = queue;
+			productName = queue;
+			productReference = 4B7DBC982487AC0700BF6EA0 /* queue */;
+			productType = "com.apple.product-type.tool";
+		};
 		D02489CA2403B05C002B30CD /* CLearn */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D02489D22403B05C002B30CD /* Build configuration list for PBXNativeTarget "CLearn" */;
@@ -150,6 +196,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = zhangalan;
 				TargetAttributes = {
+					4B7DBC972487AC0700BF6EA0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					D02489CA2403B05C002B30CD = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -173,11 +222,20 @@
 			targets = (
 				D02489CA2403B05C002B30CD /* CLearn */,
 				D0E42169247D268600B81B7C /* List */,
+				4B7DBC972487AC0700BF6EA0 /* queue */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4B7DBC942487AC0700BF6EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7DBC9B2487AC0700BF6EA0 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D02489C72403B05C002B30CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +256,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		4B7DBC9C2487AC0700BF6EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63M3QB38XB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B7DBC9D2487AC0700BF6EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63M3QB38XB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D02489D02403B05C002B30CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -350,6 +428,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4B7DBC9E2487AC0700BF6EA0 /* Build configuration list for PBXNativeTarget "queue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7DBC9C2487AC0700BF6EA0 /* Debug */,
+				4B7DBC9D2487AC0700BF6EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D02489C62403B05C002B30CD /* Build configuration list for PBXProject "CLearn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
