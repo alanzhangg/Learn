@@ -48,6 +48,7 @@
 		4B7DBC9A2487AC0700BF6EA0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; usesTabs = 0; };
 		D02489CB2403B05C002B30CD /* CLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLearn; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02489CE2403B05C002B30CD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D0324EBB247EB16900C244AA /* fatal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fatal.h; sourceTree = "<group>"; };
 		D0E42162247D19E300B81B7C /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		D0E42163247D19E300B81B7C /* List.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = List.c; sourceTree = "<group>"; };
 		D0E4216A247D268600B81B7C /* List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = List; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +91,7 @@
 		D02489C22403B05C002B30CD = {
 			isa = PBXGroup;
 			children = (
+				D0324EBB247EB16900C244AA /* fatal.h */,
 				D02489CD2403B05C002B30CD /* CLearn */,
 				D0E4216B247D268600B81B7C /* List */,
 				4B7DBC992487AC0700BF6EA0 /* queue */,
